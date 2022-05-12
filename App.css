@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #263541;
+}
+
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f5f6fa;
+  padding: 20px;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding-right: 32px;
+  color: white;
+
+}
+
+.app__dropdown {
+  background-color: #18232B;
+  color: white !important;
+}
+
+.app__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.app__header > h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__left {
+  flex: 0.9;
+}
+
+.app__information > h3 {
+  color: white;
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.app__information > h3:last-of-type {
+  margin-top: 1rem;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}
+
+.app {
+  background: #263541;
+}
+
+.css-46bh2p-MuiCardContent-root {
+  background: #18232B;
+  color: white;
+}
+
+.css-1pnmrwp-MuiTypography-root {
+  color: rgb(255, 255, 255 );
+}
+
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+  background-color: #18232B !important;
+}
